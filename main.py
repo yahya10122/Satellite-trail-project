@@ -3,7 +3,7 @@ import numpy as np
 import math
 from matplotlib import pyplot as plt
 
-src_img = cv.imread('/Users/yahya2/PycharmProjects/Satellite trail project/venv/test.jpeg')
+src_img = cv.imread('test.jpeg')
 cv.imshow('Original Image',src_img)
 
 temp = cv.fastNlMeansDenoisingColored(src_img,None,10,10,7,21)
